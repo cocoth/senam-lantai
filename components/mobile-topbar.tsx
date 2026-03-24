@@ -17,8 +17,9 @@ interface MobileTopbarProps {
 
 const MobileTopbar = ({ floorMoves }: MobileTopbarProps) => {
     const [isOpen, setIsOpen] = useState(false)
-    const menuRef = useRef<HTMLDivElement>(null)
     const closeMenu = () => setIsOpen(false)
+
+    const menuRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {

@@ -35,7 +35,7 @@ export default async function FloorMovePage({ params }: PageProps) {
     <main className="relative isolate overflow-hidden">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-120 bg-[radial-gradient(circle_at_top,oklch(0.73_0.14_255/.25),transparent_60%)]" />
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-14 pt-10 lg:px-6 lg:pt-14">
+      <section className="mx-auto w-full max-w-6xl px-4 py-4 lg:px-6">
         <Link
           href="/"
           className="mb-5 inline-flex items-center gap-2 text-sm text-muted-foreground transition hover:text-primary"
@@ -49,6 +49,7 @@ export default async function FloorMovePage({ params }: PageProps) {
           moveTitle={move.title}
           moveDescription={move.description}
           stepDurationMs={60 * 30}
+          datas={move}
         />
       </section>
     </main>

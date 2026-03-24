@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" className={`${oswald.variable} ${inter.variable} h-full`}>
       <body className="min-h-full flex flex-col">
         <Navbar />
-        <div className="pt-14">
+        <div className="pt-14 sm:pt-0">
           {children}
         </div>
       </body>
