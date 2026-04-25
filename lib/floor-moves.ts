@@ -66,10 +66,11 @@ export const floorMoves: FloorMove[] = [
       2: "Tekuk badan ke samping dan letakkan tangan di matras.",
       3: "Dorong dengan tangan untuk mengangkat tubuh ke samping.",
       4: "Gerakkan kaki secara bergantian mengikuti arah tangan.",
-      5: "Jaga tubuh tetap lurus dan seimbang selama gerakan.",
-      6: "Lanjutkan meroda dengan ritme yang konsisten.",
-      7: "Setelah beberapa putaran, gunakan momentum untuk kembali ke posisi berdiri.",
-      8: "Selesaikan gerakan dengan posisi berdiri tegak."
+      5: "posisi kaki membentuk v seimbang di udara saat tubuh bergerak ke samping.",
+      6: "Jaga tubuh tetap lurus dan seimbang selama gerakan.",
+      7: "Lanjutkan meroda dengan ritme yang konsisten.",
+      8: "Setelah beberapa putaran, gunakan momentum untuk kembali ke posisi berdiri.",
+      9: "Selesaikan gerakan dengan posisi berdiri tegak."
     }
   },
   {
@@ -88,10 +89,11 @@ export const floorMoves: FloorMove[] = [
       3: "Lakukan lari awalan dengan kecepatan yang terkontrol.",
       4: "bersiaplah untuk melakukan tolakan dengan kedua kaki sambil mengayunkan tangan ke depan atas.",
       5: "Tolakkan kaki sekuat mungkin sehingga tubuh melayang di udara. Posisi tubuh harus lurus dan tangan terjulur ke depan seperti harimau yang menerkam.",
-      6: "Saat akan mendarat, letakkan kedua telapak tangan di matras secara kuat untuk menahan berat badan dan menjaga keseimbangan.",
-      7: "Segera tekuk siku dan masukkan kepala di antara kedua lengan (dagu menempel ke dada). Mendaratlah dengan tengkuk terlebih dahulu untuk memulai gulingan.",
-      8: "Setelah berguling, pegang bagian tulang kering atau julurkan tangan ke depan untuk menjaga keseimbangan dalam posisi jongkok, lalu kembali berdiri tegak",
-      9: "Untuk latihan bertahap, mulai dengan tolakan rendah dan fokus pada teknik pendaratan sebelum meningkatkan ketinggian lompatan."
+      6: "Saat berada di puncak lompatan, fokus pada titik di depan untuk menjaga keseimbangan dan arah gerak.",
+      7: "Saat akan mendarat, letakkan kedua telapak tangan di matras secara kuat untuk menahan berat badan dan menjaga keseimbangan.",
+      8: "Segera tekuk siku dan masukkan kepala di antara kedua lengan (dagu menempel ke dada). Mendaratlah dengan tengkuk terlebih dahulu untuk memulai gulingan.",
+      9: "Setelah berguling, pegang bagian tulang kering atau julurkan tangan ke depan untuk menjaga keseimbangan dalam posisi jongkok, lalu kembali berdiri tegak",
+      10: "Untuk latihan bertahap, mulai dengan tolakan rendah dan fokus pada teknik pendaratan sebelum meningkatkan ketinggian lompatan."
     }
   },
   {
