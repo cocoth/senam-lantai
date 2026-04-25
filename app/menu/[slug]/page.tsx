@@ -48,7 +48,7 @@ export default async function FloorMovePage({ params }: PageProps) {
           moveSlug={move.slug}
           moveTitle={move.title}
           moveDescription={move.description}
-          stepDurationMs={60 * 30}
+          stepDurationMs={5 * 1000} // 40 detik per langkah
           datas={move}
         />
       </section>
